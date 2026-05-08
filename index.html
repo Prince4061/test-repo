@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>EYECVTCTY - Red Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        
+        <div id="ui-layer">
+            <div class="stats">
+                <div class="stat-box">
+                    <div class="stat-label">Score</div>
+                    <div id="score-val" class="stat-value">0</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Shield</div>
+                    <div id="health-val" class="stat-value">100%</div>
+                </div>
+            </div>
+
+            <div id="mobile-controls">
+                <div class="control-btn" id="touch-left">←</div>
+                <div class="control-btn" id="touch-fire">FIRE</div>
+                <div class="control-btn" id="touch-right">→</div>
+            </div>
+        </div>
+
+        <div id="overlay">
+            <h1 id="title-text">EYECVTCTY</h1>
+            <div class="developer-credit">Developer: Dhairya</div>
+            <button id="start-btn" class="btn">Start Mission</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
